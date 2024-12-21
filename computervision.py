@@ -1,6 +1,7 @@
 import cv2
 import os
 
+
 # Function to extract frames from a video until reaching the desired frame count
 def extract_frames(video_file):
     cap = cv2.VideoCapture(video_file)
